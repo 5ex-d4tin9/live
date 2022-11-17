@@ -49,7 +49,7 @@ html {
 .videobgbox:after {
   content: "";
   display: block;
-  background: #0005;
+  background: #0004;
   background-size: 2px 2px;
   z-index: 0;
   width: 100%;
@@ -125,7 +125,7 @@ html {
   transform: translate(-50%, -50%);
   display: none;
   padding: 1rem;
-  color: #000000;
+  color: #ffff;
 }
 .step.current {
   display: block;
@@ -173,7 +173,6 @@ html {
   text-align: center;
 }
 .inner_wrapper {
-  border: 2px solid #f1f1f1;
   position: absolute;
   top: 50%;
   left: 50%;
