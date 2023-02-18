@@ -28,6 +28,17 @@ html {
   transition-duration: 0ms;
   object-fit: cover;
 }
+.videobgbox:after {
+  content: "";
+  display: block;
+  background: #0004;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .step,
 .stepbox {
   width: 100%;
