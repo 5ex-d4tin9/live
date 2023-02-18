@@ -31,7 +31,7 @@ html {
 .videobgbox:after {
   content: "";
   display: block;
-  background: #0004;
+  background: #0005;
   position: fixed;
   left: 0;
   top: 0;
