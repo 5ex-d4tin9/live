@@ -31,12 +31,13 @@ html {
 .videobgbox:after {
   content: "";
   display: block;
-  background: #0002;
+  background: #0003;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
+  
 }
 
 .step,
@@ -65,18 +66,6 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
-  width: 97%;
-  padding: 25px;
-  text-align: center;
-}
-.inner_wrapper {
- 
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-  width: 100%;
-  padding: 1;
+  width: 99%;
+  height: 99%;
 }
